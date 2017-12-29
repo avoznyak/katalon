@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+myTestSuite1,Chrome 63.0.3239.84,,2017-12-29 23:01:20,2017-12-29 23:01:57,"36,267s",PASSED
+,,,,,,
+Test Cases/mp1,Chrome 63.0.3239.84,,2017-12-29 23:01:21,2017-12-29 23:01:56,"35,235s",PASSED
+"Statement - baseUrl = ""https://dev.advertizoom.com/#/login""",Chrome 63.0.3239.84,,2017-12-29 23:01:21,2017-12-29 23:01:21,"0,002s",PASSED
+openBrowser,Chrome 63.0.3239.84,,2017-12-29 23:01:21,2017-12-29 23:01:29,"7,243s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 63.0.3239.84,,2017-12-29 23:01:29,2017-12-29 23:01:29,"0,020s",PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 63.0.3239.84,,2017-12-29 23:01:29,2017-12-29 23:01:29,"0,157s",PASSED
+"Statement - selenium.open(""https://dev.advertizoom.com/#/login"")",Chrome 63.0.3239.84,,2017-12-29 23:01:29,2017-12-29 23:01:29,"0,479s",PASSED
+"Statement - selenium.doubleClick(""id=exampleInputLogin1"")",Chrome 63.0.3239.84,,2017-12-29 23:01:29,2017-12-29 23:01:29,"0,113s",PASSED
+setText,Chrome 63.0.3239.84,,2017-12-29 23:01:29,2017-12-29 23:01:30,"0,202s",PASSED
+setMaskedText,Chrome 63.0.3239.84,,2017-12-29 23:01:30,2017-12-29 23:01:30,"0,222s",PASSED
+"Statement - selenium.click(""//button[@type='submit']"")",Chrome 63.0.3239.84,,2017-12-29 23:01:30,2017-12-29 23:01:30,"0,088s",PASSED
+delay,Chrome 63.0.3239.84,,2017-12-29 23:01:30,2017-12-29 23:01:31,"1,029s",PASSED
+"Statement - For ([x = 0, x < 2, x = x + 1])",Chrome 63.0.3239.84,,2017-12-29 23:01:31,2017-12-29 23:01:56,"24,981s",PASSED
